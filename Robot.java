@@ -10,18 +10,18 @@ public class Robot
     private String color;
     private double speed;
     
-    public double getSpeed(){
-        return this.speed;
-    }
+    // public double getSpeed(){
+        // return this.speed;
+    // }
     
-    public String getcolor(){
-        return this.color;
-    }
+    // public String getcolor(){
+        // return this.color;
+    // }
     
     public double setRobotwalk(String color,double speed){
         this.speed = speed;
         this.color = color;
-        if((color.equals("green"))){
+         if((color.equals("green"))){
         }
         else
         {
