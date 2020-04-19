@@ -14,7 +14,7 @@ public class RobotTest
         System.out.print("교통신호는 :");
         String color = scanner.nextLine();
     
-        Robot robot = new Robot();
-        System.out.println(robot.setRobotwalk(color,speed) + "km/h");
+        //Robot robot = new Robot();
+        //System.out.println(robot.setRobotwalk(color,speed) + "km/h");
     }
 }
