@@ -11,7 +11,7 @@ public class RobotTest2
         //double speed = 5.0;
         
         Scanner scanner = new Scanner(System.in);
-        Robot2 robot = new Robot2();
+        //Robot2 robot = new Robot2();
         
         System.out.print("교통신호는 :");
         String color = scanner.nextLine();
