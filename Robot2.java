@@ -11,6 +11,19 @@ public class Robot2
     private double speed;
     
     public double getSpeed(){
+        this.color = color;
+        if((color.equals("green"))){
+        }
+        else
+        {
+            if(color.equals("yellow")){
+               speed = speed*1.2;
+            }
+            else
+            {
+                speed = 0;
+            }
+        }
         return this.speed;
     }
     
